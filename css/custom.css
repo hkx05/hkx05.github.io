@@ -1,0 +1,79 @@
+/* Default light mode styles */
+body.light-mode {
+  background-color: #fff;
+  color: #000;
+}
+/* Dark mode styles */
+body.dark-mode #theme-toggle {
+  color: #fff;
+}
+body.dark-mode #subtitle {
+  color: #fff;
+}
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+body.dark-mode a {
+  color: #aeb6bf;
+}
+body.dark-mode #wrap {
+  background-color: #222426;
+}
+body.dark-mode header,
+body.dark-mode footer,
+body.dark-mode nav,
+body.dark-mode .content,
+body.dark-mode .sidebar {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+body.dark-mode .article-inner,
+body.dark-mode .widget {
+  background-color: #2b2f31;
+  border: 1px solid #4a4a4a; /* Grey border */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.5); /* Grey shadow */
+}
+body.dark-mode .article-header,
+body.dark-mode .article-footer {
+  background-color: #2b2f31;
+}
+body.dark-mode .e-content article-entry {
+  color: #aeb6bf;
+}
+body.dark-mode table {
+  background-color: #333;
+  color: #e0e0e0;
+}
+body.dark-mode pre,
+body.dark-mode code {
+  background-color: #2d2d2d;
+  color: #e0e0e0;
+}
+/* Ensure dark mode styles for widgets */
+body.dark-mode .widget-archive,
+body.dark-mode .widget-category,
+body.dark-mode .widget-recent_posts,
+body.dark-mode .widget-tag,
+body.dark-mode .widget-tagcloud {
+  text-shadow: 0px 0px 0px;
+  background-color: #2b2f31;
+  color: #e0e0e0;
+}
+body.dark-mode .widget-archive a,
+body.dark-mode .widget-category a,
+body.dark-mode .widget-recent_posts a,
+body.dark-mode .widget-tag a,
+body.dark-mode .widget-tagcloud a {
+  color: #3c83a9;
+}
+body.dark-mode .widget-title {
+  text-shadow: 0px 0px 0px;
+}
+body.dark-mode .main-nav-link,
+body.dark-mode .nav-icon {
+  color: #aeb6bf;
+}
+body.dark-mode .e-content.article-entry p {
+  color: #aeb6bf;
+}
