@@ -3,9 +3,21 @@ body.light-mode {
   background-color: #fff;
   color: #000;
 }
-/* Dark mode styles */
+#theme-toggle {
+  background: transparent;
+  border: 0px;
+  left: 10px;
+  top: 5px;
+}
 body.dark-mode #theme-toggle {
   color: #fff;
+  background: transparent;
+  border: 0px;
+  left: 10px;
+  top: 5px;
+}
+body.dark-mode .article-meta {
+  text-shadow: 0px 0px 0px;
 }
 body.dark-mode #subtitle {
   color: #fff;
@@ -31,8 +43,8 @@ body.dark-mode .sidebar {
 body.dark-mode .article-inner,
 body.dark-mode .widget {
   background-color: #2b2f31;
-  border: 1px solid #4a4a4a; /* Grey border */
-  box-shadow: 0 2px 4px rgba(0,0,0,0.5); /* Grey shadow */
+  border: 1px solid #4a4a4a;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.5);
 }
 body.dark-mode .article-header,
 body.dark-mode .article-footer {
