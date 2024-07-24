@@ -76,7 +76,8 @@ body.dark-mode .widget-archive a,
 body.dark-mode .widget-category a,
 body.dark-mode .widget-recent_posts a,
 body.dark-mode .widget-tag a,
-body.dark-mode .widget-tagcloud a {
+body.dark-mode .widget-tagcloud a,
+body.dark-mode #social_link {
   color: #3c83a9;
 }
 body.dark-mode .widget-title {
