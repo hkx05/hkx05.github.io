@@ -6,8 +6,7 @@ body.light-mode {
 #theme-toggle {
   background: transparent;
   border: 0px;
-  left: 10px;
-  top: 5px;
+  cursor: pointer;
 }
 body.dark-mode #theme-toggle {
   color: #fff;
@@ -49,6 +48,10 @@ body.dark-mode .widget {
 body.dark-mode .article-header,
 body.dark-mode .article-footer {
   background-color: #2b2f31;
+}
+body.dark-mode .archive-article-inner,
+body.dark-mode .archive-article-header {
+  background-color: #222426;
 }
 body.dark-mode .e-content article-entry {
   color: #aeb6bf;
